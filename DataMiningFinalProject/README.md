@@ -6,3 +6,4 @@ Used twitter scraper to generate location and time specific data sets regarding 
 * Applied Classifier to prebuilt sentiment data set and achieved 99.96% accuracy on 2000 tweets
 * Applied the trained model to generated state data sets and used the outcome to predict electric costs as either rising or falling in that state
 * Correctly Predicted 7/10 States
+* Created GUI to display results
