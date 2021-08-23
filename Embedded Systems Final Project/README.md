@@ -1,4 +1,9 @@
+Embedded System Final Project
+
+For my final project I built an attack on my own computer a 2017 MacBook Pro that would grant me remote access. Initially I attempted to gain access through open ports via IP address retrieval and port scanning but the nature of MacOS operating system made this unlikely had it been a Windows based operating system this approach could have been viable. I therefore had to create a RAT and installed it on my system by disguising it as a basic file that when clicked creates a backdoor which opens a meterpreter session between the victims system and my host system from which I can access there files and even plant new ones for further attacks.
 This attack is based on running TheFatRat exploit to create a payload that creates a server allowing remote access to the device. Note: I ran this on kali linux because it has metasploit installed already so downloading this on a different operating system could effect its ability to download.
+
+STEPS TO IMPLEMENT ATTACK:
 
 1. Open terminal and use following commands to clone TheFatRat from github
 git clone https://github.com/Screetsec/TheFatRat.git
